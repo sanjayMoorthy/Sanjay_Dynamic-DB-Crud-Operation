@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+nav{
+    text-align: center;
+    background-color: blue;
+    color: white;
+}
+
+button.style {
+    margin-top: 30px;
+    margin-left: 565px;
+    height: 35px;
+    width: 150px;
+    border: solid 1.80px blue;
+    background-color: white;
+    color: blue;
+    font-size: 16px;
+    font-style: italic;
+    border-radius: 5px;
+}
+
+button.style:hover {
+    background-color: blue;
+    color: white;
+}
+
+
+/* for create db file */
+
+
+
+span.nametag {
+    color: rgb(61, 61, 61);
+    font-size: 15px;
+    padding: 10px;
+    border: solid 1px gray;
+    background-color: #f8f9fa;
+    border-radius: 5px 0px 0px 5px;
+}
+.inputcontainer {
+    display: flex;
+    margin-top: 110px;
+    margin-left: 450px;
+}
+
+input.dbInput {
+    padding-left: 10px;
+    height: 45px;
+    font-size: 16px;
+    width: 300px;
+    /* border-radius: 0px 5px 5px 0px gray; */
+}
+
+
+button.submitBtn {
+    margin-top: 30px;
+    margin-left: 600px;
+    height: 35px;
+    width: 150px;
+    border: solid 1.80px blue;
+    background-color: white;
+    color: blue;
+    font-size: 16px;
+    font-style: italic;
+    border-radius: 5px;
+}
+
+button.submitBtn:hover {
+    background-color: blue;
+    color: white;
+}
+
+a:link, a:visited {
+    margin-top: 20px;
+    margin-left: 12px;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+/* for create table page */
+
+.heding {
+    display: flex;
+    justify-content: space-between;
+}
+
+h2.heading {
+    margin-right: 620px;
+    margin-top: 24px;
+}
+
+.content {
+    margin-top: 15px;
+}
+
+select.dbSelction {
+    margin-left: 520px;
+    height: 35px;
+    width: 317px;
+    background-color:#f8f9fa;
+    text-align: center;
+}
+
+.tablenamecontent {
+    margin-left: 520px;
+    margin-top: 15px;
+}
+
+input.tableInput {
+    height: 30px;
+    width: 218px;
+}
