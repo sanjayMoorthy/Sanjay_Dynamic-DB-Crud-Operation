@@ -14,7 +14,7 @@
             <form action="/createDatabase" method="POST">
                 <div class="inputcontainer">
                     <span class="nametag">Enter database Name</span>
-                    <input type="text" name="createDb" class="dbInput">
+                    <input type="text" name="createDb" class="dbInput" required>
                 </div>
                 <button type="submit" class="submitBtn" >Submit</button>
             </form>

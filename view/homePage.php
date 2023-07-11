@@ -21,7 +21,7 @@
                 </form>
             </div>
             <div class="addRow_button">
-                <form action="addRowpage" method="post">
+                <form action="/addRowpage" method="post">
                     <button type="submit" class="style"> Add Rows</button>
                 </form>
             </div>

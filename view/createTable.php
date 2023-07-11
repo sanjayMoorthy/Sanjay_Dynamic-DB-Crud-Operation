@@ -15,29 +15,33 @@
         </div>
         <div class="content">
             <form action="/creatTable" method="POST">
-                <select name="databases" id="" class="dbSelction">
-                    <option value="">Select the Database name</option>
-                    <!-- <?php foreach ($allDatabase as $database):?>
-                    <option value="<?php echo $database ?>"><?php echo $database ?></option>
-                    <?php endforeach; ?> -->
+                <select name="databases" class="dbSelction" required>
+                    <option value="" >Select database</option>
+                    <?php foreach($allDatabase as $database=>$databases): ?>
+                        <option><?php echo $databases ->Database ?></option>
+                    <?php endforeach; ?>
                 </select>
+                
                 <div class="tablenamecontent">
                     <span>Table Name</span>
-                    <input type="text" class="tableInput" name="tableName">
+                    <input type="text" class="tableInput" name="tableName" required>
                 </div>
-                <div class="inputRows">
-                    <input type="text">
-                    <select name="" id="">
-                        <option value="">select data types</option>
-                        <option value="int">Integer</option>
-                        <option value="varchar(255)">varchar</option>
-                        <option value="timestamp">Timestamp</option>
-                    </select>
-                    <button>Add more column</button>
+                <div class="rowcontainer">
+                    <div class="inputRows">
+                        <input type="text" name="columnName[]" required>
+                        <select name="datatypes[]" required>
+                            <option value="">select data types</option>
+                            <option value="int">Integer</option>
+                            <option value="varchar(255)">varchar</option>
+                            <option value="timestamp">Timestamp</option>
+                        </select>
+                    </div>
+                    <button class="addBtn" type="button">Add more column</button>
                 </div>
-                <button type="submit">create</button>
+                <button type="submit" class="submitBtn">create</button>
             </form>
         </div>
     </div>
+<script type="text/javascript" src="../script.js"></script>
 </body>
 </html>

@@ -4,7 +4,10 @@
     box-sizing: border-box;
 }
 
-
+.container{
+    max-width: 1440px;
+    width: 100%;
+}
 
 nav{
     text-align: center;
@@ -122,3 +125,39 @@ input.tableInput {
     height: 30px;
     width: 218px;
 }
+
+.rowcontainer {
+    padding: 15px;
+    width: 345px;
+    box-shadow: 0px 0px 4px 0px;
+    border-radius: 5px;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+button.addBtn {
+    margin-top: 10px;
+    height: 35px;
+    width: 150px;
+    border: 0;
+    background-color:blue;
+    color: white;
+    font-size: 16px;
+    font-style: italic;
+    border-radius: 5px;
+}
+
+/* 
+button.sumbitbtn {
+    margin-top: 30px;
+    margin-left: 600px;
+    height: 35px;
+    width: 150px;
+    border: solid 1.80px blue;
+    background-color: white;
+    color: blue;
+    font-size: 16px;
+    font-style: italic;
+    border-radius: 5px;
+} */

@@ -64,7 +64,15 @@ class Router
                         $this->controller->creatingDatabase($_POST);
                     break;
                     case 'addTabblepage':
-                        $this->controller->tablePage();
+                        $this->controller->getingDatabase($_POST);
+                    break;
+                    case 'creatTable':
+                        $this->controller->createTable($_POST);
+                    break;
+                    case 'addRowpage':
+                        $this->controller->getTables($_POST);
+                        break;
+                        
                     break;
                 }
             }
